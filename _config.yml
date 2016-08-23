@@ -2,7 +2,7 @@
 title: Liberty & Freedom
 tagline: 'Liberty & Freedom'
 description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://terencecooper.github.io" target="_blank">@terence</a>.'
-baseurl: "/lanyon"
+baseurl: ""
 url: http://terencecooper.github.io
 logo: '/public/logo.png'
 
