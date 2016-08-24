@@ -61,8 +61,9 @@ hero:
 # Puglins
 mathjax: true # whether support mathjax
 google_analytics_token: # 'UA-00000000-1' # leave blank if you don't want google analytics
-disqus_shortname: disqus_7J7EZ2oH1S
-disqus_url: "http://terence-blog.disqus.com"
+disqus_shortname: terence-blog
+# disqus_shortname: disqus_7J7EZ2oH1S
+# disqus_url: "http://terence-blog.disqus.com"
 
 
 
