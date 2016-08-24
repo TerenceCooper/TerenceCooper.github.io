@@ -12,15 +12,13 @@ gems:
 markdown: kramdown
 kramdown:
   input: GFM
-excerpt_separator: "<!-- more -->"
+excerpt_separator: <!--more-->
 sass:
   style: compressed
   sass_dir: _scss    
 paginate: 5
 paginate_path: '/blog/page:num'
 permalink: pretty
-
-future: true
 
 version: 1.0.0
 
@@ -33,8 +31,8 @@ author:
     linkedin:  https://www.linkedin.com/in/terence-cooper-5a976b122
     github:    https://github.com/TerenceCooper
     # facebook:  <hide>
-    # twitter:   https://twitter.com/Li_Zhihao
-    # weibo:     http://weibo.com/41173780
+    # twitter: 
+    # weibo: 
     # email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
 # Navigation (2nd level links supported)
