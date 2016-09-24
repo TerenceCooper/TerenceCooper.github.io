@@ -10,7 +10,7 @@ By default, Python stores instance attributes in a per-instance dictionay named 
 To define __slots__ you create a class attribute with that name and assign it an iterable of `str` with identifiers for the instance attributes. I like to use a tuple for that, because it conveys the message that the __slots__ definition cannot change.  
 
 EXAMPLE:  
-    ```python
+    ``` python  
     class MyClass:  
         __slots__ == ('__attrName1', '__attrName2')  
 	...  
