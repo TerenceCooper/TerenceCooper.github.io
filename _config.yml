@@ -9,9 +9,9 @@ logo: '/public/logo.png'
 # Site configurations
 gems:
   - jekyll-paginate
-markdown: kramdown
-kramdown:
-  input: GFM
+# markdown: redcarpet # kramdown
+# kramdown:
+#  input: GFM
 excerpt_separator: <!--more-->
 sass:
   style: compressed
@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: Terence A. Cooper
-  description: Machine Learning Engineer, Data Scientist, Life long learner
+  description: Machine Learning Engineer, Data Analyst, Life long learner
   gravatar: 119e0d0d3e896dc62dcb3cdc287d5c67 # md5 hash of your email address
   contact:
     linkedin:  https://www.linkedin.com/in/terence-cooper-5a976b122
