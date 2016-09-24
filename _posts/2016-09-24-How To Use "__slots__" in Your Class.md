@@ -9,16 +9,16 @@ By default, Python stores instance attributes in a per-instance dictionay named 
 <!--more-->
 To define \_\_slots\_\_ you create a class attribute with that name and assign it an iterable of `str` with identifiers for the instance attributes. I like to use a tuple for that, because it conveys the message that the \_\_slots\_\_ definition cannot change.  
 
-EXAMPLE:  
+EXAMPLE:
+
 ```python
     
 class MyClass:
-
     __slots__ = ('__attrName1', '__attrName2')
-
     ...
     
 ```
+
 By defining \_\_slots\_\_ in the class, you are telling the interpreter: "These are all the instance attributes in this class." Python then stores them in a tuple-like structure in each instance, avoinding the memory overhead of the per-instance \_\_dict\_\_. This can make a huge difference in memory usage if you have millions of instances active at the same time.
 
 There is another special per-instance attribute that you may want to keep: the \_\_weakref\_\_ attribute is necessary for an object to support weak references. That attribute is present by default in instances of user-defined classes. However, if the class defines \_\_slots\_\_, and you need the instances to be targets of weak references, then you need to include '\_\_weakref\_\_' among the attributes named in \_\_slots\_\_.
