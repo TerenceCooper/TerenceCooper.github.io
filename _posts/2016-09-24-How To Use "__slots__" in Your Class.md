@@ -9,10 +9,10 @@ By default, Python stores instance attributes in a per-instance dictionay named 
 <!--more-->
 To define __slots__ you create a class attribute with that name and assign it an iterable of `str` with identifiers for the instance attributes. I like to use a tuple for that, because it conveys the message that the __slots__ definition cannot change.  
 
-EXAMPLE:
-    ```class MyClass:
-        __slots__ == ('__attrName1', '__attrName2')
-	...
+EXAMPLE:  
+    ```class MyClass:  
+        __slots__ == ('__attrName1', '__attrName2')  
+	...  
     ```  
 By defining __slots__ in the class, you are telling the interpreter: "These are all the instance attributes in this class." Python then stores them in a tuple-like structure in each instance, avoinding the memory overhead of the per-instance __dict__. This can make a huge difference in memory usage if you have millions of instances active at the same time.
 
